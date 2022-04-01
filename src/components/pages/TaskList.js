@@ -1,11 +1,10 @@
 import React from 'react';
 import Tasks from '../Tasks/Tasks';
-import AddTask from '../Tasks/AddTask';
 import Header from './Header';
 import Footer from './Footer';
 import Navigation from "./Navigation";
 
-export default function HomePage() {
+export default function TaskList() {
     return (
         <>
             <Header />
